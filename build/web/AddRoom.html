@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>KIC Admin</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+
+        <div class="header">
+            <h1>KIC Admin</h1>
+        </div>
+
+        <div class="row">
+
+            <form action="add_room.action" method="POST">
+                <table>
+                    <tr>
+                        <td>
+                            Room ID:
+                        </td>
+                        <td>
+                            <input type="text" maxlength="2" required placeholder="Example: AA" name="roomId">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Capacity:
+                        </td>
+                        <td>
+                            <input type="number" value="0" max="50" required name="roomCapacity">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Submit">
+                        </td>
+                        <td>
+                            
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+        </div>
+
+        <div class="footer">
+            <p>KIC Admin has been developed with Web Application Development Course</p>
+        </div>
+
+    </body>
+</html>
